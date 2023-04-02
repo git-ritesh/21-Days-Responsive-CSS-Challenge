@@ -50,7 +50,7 @@ There are times when you want ot use height, but for the most part, they cause m
 
 
 ## Challenge 1 :
-```
+
 INSTRUCTIONS
 
  1) Limit the total width of
@@ -63,8 +63,6 @@ INSTRUCTIONS
 
  You may modify the HTML if needed
 
-```
-### Challenge
 ![challenge exercise](Challenge-1/img/unsolved.png)
 
 ### Solution
