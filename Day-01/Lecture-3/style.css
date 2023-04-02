@@ -1,0 +1,21 @@
+/* Universal */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #23442a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 5em; /* 16 * 5 = 80px */
+
+  /* height: 300px; */
+}
