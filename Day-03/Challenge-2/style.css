@@ -32,7 +32,7 @@ body {
   padding: 50px 0;
 }
 
-.intro-content {
+.intro-content, .more-content {
   width: 50%;
   margin: 0 auto;
 }
