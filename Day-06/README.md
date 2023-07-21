@@ -19,6 +19,17 @@ Next week, we'll be jumping into flexbox and how we can use it with what we've a
 
 ## Why you shouldn't use 'em's for font-size
 
+Click on the Image Below to Watch the Video
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=pautqDqa54I" target="_blank">
  <img src="https://img.youtube.com/vi/pautqDqa54I/hqdefault.jpg" alt="Watch the video"/>
 </a>
+
+
+## A Tale of width and max-width
+
+### Read this [article](https://css-tricks.com/tale-width-max-width/) to know more about these two properties.
+
+An interesting look at the two properties, and how they might not always act the way you think they will. 
+
+As it says, the second one is the easier one to understand, just like we looked at, so I plan on sticking with that one 😊
