@@ -23,4 +23,15 @@ The four viewport units are:
 
 - `vmin`: The viewport minimum unit. This unit is based on the smaller dimension of the viewport. If the viewport height is smaller than the width, the value of 1vmin will be equal to 1% of the viewport height.
 
-- `vmax`: The viewport maximum unit. This unit is based on the larger dimension of the viewport. If the viewport height is larger than the width, the value of 1vmax will be equal to 1% of the viewport width.
+- `vmax`: The viewport maximum unit. This unit is based on the larger dimension of the viewport. If the viewport height is larger than the width, the value of 1vmax will be equal to 1% of the viewport width.Viewport units are useful for creating responsive layouts that adapt to the size of the viewport. For example, you could use vh to set the height of a header bar so that it always takes up 10% of the viewport height, regardless of the size of the browser window.
+
+Here is an example of how to use viewport units in CSS:
+```css
+header {
+  height: 100vh;
+}
+```
+
+This code will set the height of the header element to 100% of the viewport height. So, if the viewport is 1000 pixels tall, the header element will be 1000 pixels tall.
+
+<iframe width="940" height="529" src="https://www.youtube.com/embed/IWFqGsXxJ1E" title="CSS Units: vh, vw, vmin, vmax #css #responsive #design" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
