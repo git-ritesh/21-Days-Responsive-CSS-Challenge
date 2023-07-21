@@ -10,3 +10,17 @@ Up next is a video where I take a look at them. A word of warning though, I do l
 This is totally optional, and while they can be useful, they will not be something I'll be diving into in this course.
 
 If you do like them and want to practice with them, there is no reason you can't incorporate them into future challenges though!
+
+# CSS viewport units :
+
+Viewport units are a set of CSS units that are based on the dimensions of the viewport. The viewport is the visible area of the browser window in which your web page displays. Viewport units are useful for creating responsive layouts that adapt to different screen sizes.
+
+The four viewport units are:
+
+- `vh`: The viewport height unit. A value of 1vh is equal to 1% of the viewport height.
+
+- `vw`: The viewport width unit. A value of 1vw is equal to 1% of the viewport width.
+
+- `vmin`: The viewport minimum unit. This unit is based on the smaller dimension of the viewport. If the viewport height is smaller than the width, the value of 1vmin will be equal to 1% of the viewport height.
+
+- `vmax`: The viewport maximum unit. This unit is based on the larger dimension of the viewport. If the viewport height is larger than the width, the value of 1vmax will be equal to 1% of the viewport width.
