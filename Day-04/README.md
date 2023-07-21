@@ -37,5 +37,5 @@ This code will set the height of the header element to 100% of the viewport heig
 Click Below 👇 Video will help you to get a better understanding of `vh`, `vw`, `vmin` & `vmax` units.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=IWFqGsXxJ1E" target="_blank">
- <img src="https://img.youtube.com/vi/IWFqGsXxJ1E/default.jpg" alt="Watch the video" width="320"/>
+ <img src="https://img.youtube.com/vi/IWFqGsXxJ1E/hqdefault.jpg" alt="Watch the video"/>
 </a>
