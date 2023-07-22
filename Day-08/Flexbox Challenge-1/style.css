@@ -39,7 +39,7 @@ h1 {
     margin: 0 auto;
 }
 
-.row, .footer .row{
+.row, .two-col .row{
     /* display: flex => flex container */
     display: flex;
 
@@ -48,7 +48,7 @@ h1 {
     padding: 3em 0;
 }
 
-.footer {
+.two-col {
     background: #136c72;
     color: white;
 }
@@ -93,6 +93,6 @@ h1 {
     opacity: .75; 
 }
 
-.container .row .col h2 {
+.three-col h2 {
     color: #87269A;
 }
