@@ -33,14 +33,15 @@ img {
 }
 
 .hero__text {
-    width: 62%;
+    width: 60%;
 
 }
 
 /* align self is used to align a particular flex-item of the flex container  */
 .hero__img {
-    width: 32%;
+    /* width: 32%; */
     align-self: start;
+    border: 3px solid red;
 }
 
 .hero p {
