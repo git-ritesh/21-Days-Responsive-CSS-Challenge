@@ -9,11 +9,17 @@ body {
 }
 
 h1 {
+    margin-top: 0;
     font-size: 3rem;
+}
+
+img {
+    max-width: 100%;
 }
 
 .container {
     display: flex;
+    justify-content: space-between;
 
     width: 80%;
     max-width: 1100px;
@@ -27,16 +33,18 @@ h1 {
 }
 
 .hero__text {
-    width: 60%;
-    background: brown;
+    width: 62%;
+
+}
+
+/* align self is used to align a particular flex-item of the flex container  */
+.hero__img {
+    width: 32%;
+    align-self: start;
 }
 
 .hero p {
     margin-bottom: 3em;
-}
-/* align self is used to align a particular flex-item of the flex container  */
-.hero__img {
-    align-self: start;
 }
 
 .btn {
