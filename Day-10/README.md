@@ -1,5 +1,4 @@
-# Day-10 | A deeper dive into flexbox
-
+# Day-10 | Extra Curricular Activites
 Yesterday was a big day, so there is no shame in taking a break at this point!
 
 If you're loving flexbox (or perhaps still a little confused by it!), I do have a 3-part series on YouTube that goes much deeper than we've looked so far, and could help you grasp it.
