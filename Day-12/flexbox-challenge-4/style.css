@@ -6,14 +6,34 @@ body {
     margin: 0;
 }
 
-h1, h3 {
+h1, h2 {
     font-family: 'Playfair Display', serif;
 }
 
-h1 {
-    font-size: 3.75rem;
-    margin: 0;
+.section-one p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+.brown {
     color: #824936;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.section-two h2 {
+    font-size: 36px;
+    margin-top: 0;
 }
 
 section {
@@ -23,7 +43,7 @@ section {
     justify-content: center;
 }
 
-.primary {
+.section-one {
     background: #F3EED9;
     min-height: 660px;
 
@@ -33,7 +53,6 @@ section {
     width: 80%;
     max-width: 1128px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .container__txt {
@@ -42,10 +61,21 @@ section {
     padding: 4em;
 }
 
-.primary p {
-    font-size: 1.125rem;
-    text-transform: uppercase;
+.row {
+    display: flex;
+    /* gap: 6em; */
+}
+
+.row p {
+    width: 100%;
     font-family: 'Roboto', serif;
-    font-weight: 300;
-    letter-spacing: 8px;
+    font-size: 21px;
+}
+
+.section-two {
+    padding: 6em 0;
+}
+
+.col__txt + .col__txt {
+    margin-left: 5em;
 }
