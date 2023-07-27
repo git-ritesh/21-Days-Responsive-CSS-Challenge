@@ -10,6 +10,10 @@ h1, h2 {
     font-family: 'Playfair Display', serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .section-one p {
     font-size: 18px;
     text-transform: uppercase;
@@ -31,7 +35,7 @@ h1 {
     margin: 0;
 }
 
-.section-two h2 {
+h2 {
     font-size: 36px;
     margin-top: 0;
 }
@@ -63,7 +67,6 @@ section {
 
 .row {
     display: flex;
-    /* gap: 6em; */
 }
 
 .row p {
@@ -76,6 +79,26 @@ section {
     padding: 6em 0;
 }
 
-.col__txt + .col__txt {
+.col + .col {
     margin-left: 5em;
+}
+
+.section-three {
+    background: #222C2A;
+}
+
+.col {
+    width: 100%;
+}
+
+.section-four {
+    background: #824936;
+}
+
+.white {
+    color: #fff;
+}
+
+.section-three, .section-four {
+    padding: 5em 0;
 }
