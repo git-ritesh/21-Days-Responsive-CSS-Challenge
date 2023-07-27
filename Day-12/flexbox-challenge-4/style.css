@@ -1,3 +1,51 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3.75rem;
+    margin: 0;
+    color: #824936;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* vertically aligns center */
+    justify-content: center;
+}
+
+.primary {
+    background: #F3EED9;
+    min-height: 660px;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container__txt {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4em;
+}
+
+.primary p {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
