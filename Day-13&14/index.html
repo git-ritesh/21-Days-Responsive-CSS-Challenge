@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>min, max & clamp</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --clr-primary:#ee6352;
+            --clr-body:#333;
+            --clr-bg:#ddd;
+        }
+
+        body {
+            font-family: basic-sans, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.25em;
+            color: var(--clr-body);
+            background:var(--clr-bg);
+        }
+
+        .content {
+            background: white;
+            padding: 3em;
+            box-shadow: 0 0 3em rgba(0, 0, 0, .15);
+
+            /*  */
+            /* max-width: 500px; */
+
+            /* min() choses that value whichever is smallest from the given values. */
+            /* width: min(500px, 70%);  */
+            /* This is equivalent to the two lines of code i.e. Ln34,35.
+            /* For smaller screen sizes it choses the 70% as it's smaller than the 500px
+            but if we grow our screen big enough then the 70% will become bigger so it will choose 500px as the width 
+            because it's smaller*/
+
+            /* max() is just opposite of min() it choses the max value from the given values. */
+            /* width: max(500px, 70%); */
+
+            /* We can also give it multiple values with that.*/
+            /* width: max(400px, 50%, 50vh); */
+
+            /* width: min(max(), 500px); */
+            /* width: min(500px + 20%, 600px); */
+            /* do include space when you use maths  */
+            /* width: min(500px +20%, 600px); 
+            This is wrong as it will assume +20% as a single unit. */
+        }
+
+        .title {
+            margin: 0 0 .5em;
+            font-weight: 900;
+            color: var(--clr-primary);
+            line-height: .8;
+
+            /* font-size: 5vw; */
+            font-size: clamp(2rem, 5vw, 5rem);
+        }
+
+        p {
+            /* background: lightblue; */
+            /* width: 50%;*/
+
+            /* Clamp only works with three values  */
+            /* You don't need to write it biggest to smallest or smallest to biggest as 
+            it will choose automatically which is smallest or biggest */
+            /* width: clamp(100px, 50%, 20rem); */
+            /* minimum width can cause a lot of issues when you're going 
+            to mobile you have to read you overwrite them stuff like that */
+
+            /* font-size: 2vw; */
+            /* Problem with viewport units : 
+            1. for smaller screen sizes it becomes unreadable and
+            2. Suppose someone wants to zoom your site and see the text but
+            due to the use of viewport unit the font size isn't changing because
+            viewport size remains the same while the user zooms in our out. */
+
+            /* However there is an alternative you can use i.e. calc()  */
+            /* font-size: calc(1vw + .5rem); */
+            /* Now when the user zooms the text will zoom along with it and makes it readable. */
+            /* but there's still a bit of an issue with this where you can see it's
+             getting really small at small screen sizes and you don't want people to pinch
+             and zoom when they're on a mobile experience because your bodies font-size 
+             is too small */
+
+             /* font-size: clamp(1rem, 1.25vw, 1.25rem); */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="title">A catchy title here</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, inventore suscipit odio atque unde facere. Dolor quod quasi dolores eaque.</p>
+    </div>
+</body>
+</html>
