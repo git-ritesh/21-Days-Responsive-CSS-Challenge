@@ -12,7 +12,7 @@ You can also read the notes of the each tutorial which i've prepared with illust
   
   1. [Flexbox Containers](Flexbox%20Playlist/1.%20flexbox%20containers/README.md)
   2. [Flexbox Items](Flexbox%20Playlist/2.%20flexbox%20items/README.md)
-  3. [Building Simple Layout with flexbox]()
+  3. [Building Simple Layout with flexbox](https://stackritesh.me/21-Days-Responsive-CSS-Challenge/Day-10/Flexbox%20Playlist/3.%20Building%20simple%20layout%20with%20flexbox/index.html)
 </details>
 <br> 
 You won't need this to complete any of the challenges in the course and a lot of it will be covered in the coming days, but if you really want some more material today, really understanding flexbox is a good place to start. 
