@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Basics</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Roboto, sans-serif;
+            font-size: 1.3rem;
+        }
+
+        .example {
+            width: 90%;
+            margin: 5em auto;
+            padding: 10em 0;
+            background-color: steelblue;
+            /* background-color: purple; */
+        }
+
+        /* ===============================
+           ====for Mobile First Layout====
+           =============================== */
+           /* 800px or higher */
+           @media (min-width: 800px) {
+                .example {
+                    background-color: orangered;
+                }
+            }
+           
+           /* 600px or bigger */
+           @media (min-width: 600px) {
+               .example {
+                   background-color: olivedrab;
+               }
+           }
+
+        
+        /* ======================================
+           =======for Desktop First Layout=======
+           ====================================== */
+        /* 600px or smaller */
+        /* @media (max-width: 600px) {
+            .example {
+                background-color: olivedrab;
+            }
+        } */
+    </style>
+
+</head>
+<body>
+    <div class="example"></div>
+</body>
+</html>
