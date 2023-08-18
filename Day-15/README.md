@@ -1,10 +1,6 @@
 # Day-15 | Intro to media queries
 
-#### Content :
-1. [Media Query Basics](#1-media-query-basics)
-2. []()
-
-## 1. Media Query Basics :
+## Media Query Basics :
 
 The code below is the *basic syntax of a Media Query.*
 ```css
