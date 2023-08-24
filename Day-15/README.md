@@ -85,7 +85,7 @@ But when we change the order of the CSS as given below see what will happen :
 ```
 The Last Media Query will be applied and win over the `@media(min-width: 600px)` & First Media Query will never be applied as you can see below.
 
-![media query illustration](Media%20Query%20Basics/img/media-query-override.gif)
+![media query illustration](1.%20Media%20Query%20Basics/img/media%20query%20illustration.gif)
 
 And if you put all the Media Queries above none of them is gonna win over and applied to the webpage.
 
