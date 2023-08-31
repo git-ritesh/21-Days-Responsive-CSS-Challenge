@@ -28,7 +28,7 @@ h1 {
 
 .hero__text {
     width: 60%;
-    background: brown;
+    /* background: brown; */
 }
 
 .hero p {
