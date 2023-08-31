@@ -200,17 +200,30 @@ li {
         display: none;
     }
 
-    .nav {
-        visibility: visible;
-        display: flex;
-        height: auto;
-    }
-
     .row {
         display: flex;
+        align-items: center;
         justify-content: space-between;
-
     }
+
+    .nav {
+        visibility: visible;
+        position: initial;
+
+        width: 66%;
+        height: auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav__list {
+        display: flex;
+        gap: 1em;
+        margin: 0;
+    }
+
+    
 
     .hero__text {
         width: 62%;
@@ -229,6 +242,5 @@ li {
     .sidebar {
         width: 32%;
     }
-    
     
 }
