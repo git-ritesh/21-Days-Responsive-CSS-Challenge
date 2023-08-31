@@ -62,11 +62,36 @@ header {
     text-align: center;
 }
 
+
+a {
+    font-size: .75em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 2px;
+}
+
+li {
+    line-height: 1.5;
+    list-style: none;
+}
+
 .nav {
     width: 100%;
 }
 
+.nav__list {
+    padding: 0;
+}
 
+.nav__link--button {
+    border: 1px solid white;
+    color: #136c72;
+    background: white;
+    border-radius: 1em;
+    padding: .25em .5em;
+}
 
 .nav-toggle {
     cursor: pointer;
