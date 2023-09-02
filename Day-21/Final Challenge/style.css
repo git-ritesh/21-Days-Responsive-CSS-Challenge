@@ -6,12 +6,21 @@
     /* ====== Colors ======= */
     --clr-extra-dark: #2E323F;
     --clr-dark-gray: #3B4050;
+    --clr-light-gray: #f1f1f1;
+    /* Texts colors */
     --clr-gray: #6F737F;
     --clr-pantone: #A59678;
 
     /* Fonts & Typography*/
     --ff-montserrat: 'Montserrat', sans-serif;
     --ff-oswald: 'Oswald', sans-serif;
+
+    --fs-18px: 1.125rem;
+    --fs-21px: 1.3125rem;
+    --fs-24px: 1.5rem;
+    --fs-30px: 1.875rem;
+    --fs-36px: 2.25rem;
+    --fs-90px: 5.625rem;
 }
 
 body {
