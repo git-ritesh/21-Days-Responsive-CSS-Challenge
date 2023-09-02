@@ -1,0 +1,20 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    /* ====== Colors ======= */
+    --clr-extra-dark: #2E323F;
+    --clr-dark-gray: #3B4050;
+    --clr-gray: #6F737F;
+    --clr-pantone: #A59678;
+
+    /* Fonts & Typography*/
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --ff-oswald: 'Oswald', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
