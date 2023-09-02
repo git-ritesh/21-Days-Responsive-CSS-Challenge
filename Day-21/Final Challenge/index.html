@@ -1,22 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day-21 Final Challenge</title>
+    <link
+      rel="shortcut icon"
+      href="https://raw.githubusercontent.com/git-ritesh/21-Days-Responsive-CSS-Challenge/master/Day-19/Mobile%20Navigation%20Challenge/img/logo.svg"
+      type="image/x-icon"
+    />
     <!-- External CSS Link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Fonts Link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main>
-        <section>section1</section>
-        <section>section2</section>
-        <section>section3</section>
-        <section>section4</section>
+      <!-- NAVIGATION BAR (HEADER) -->
+      <header>
+        <div class="container">
+          <div class="logo-container">
+            <a class="logo" href="#">
+              <img
+                src="https://github.com/git-ritesh/21-Days-Responsive-CSS-Challenge/blob/master/Day-19/Mobile%20Navigation%20Challenge/img/logo.svg?raw=true"
+                alt="conquering responsive layouts"
+              />
+            </a>
+          </div>
+          <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+          </button>
+          <nav class="nav">
+            <ul class="nav__list nav__list--primary">
+              <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">ABOUT</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">CONTACT</a>
+              </li>
+            </ul>
+            <ul class="nav__list nav__list--secondary">
+              <li class="nav__item">
+                <a href="#" class="nav__link">SIGN IN</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link--button">SIGN UP</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container">
+            <!-- Large Title Text -->
+          <div class="hero__title">
+            Responsive layouts<span class="clr-pantone">don't have to be a struggle</span>
+          </div>
+          <!-- Description & call-to-action(button) container -->
+          <div class="hero__txt-cta-container">
+            <div class="hero__txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <button class="hero__cta">I WANT TO LEARN</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section class="features">
+        <div class="container"></div>
+      </section>
+
+      <!-- TIPS SECTIONS -->
+      <section class="tips">
+        <div class="container"></div>
+      </section>
+
+      <!-- FOOTER SECTION -->
+      <section class="footer">
+        <div class="container"></div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
