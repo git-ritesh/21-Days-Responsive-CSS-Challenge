@@ -10,6 +10,7 @@
     /* Texts colors */
     --clr-gray: #6F737F;
     --clr-pantone: #A59678;
+    --clr-white: #fff;
 
     /* Fonts & Typography*/
     --ff-montserrat: 'Montserrat', sans-serif;
@@ -25,5 +26,73 @@
 
 body {
     margin: 0;
+    line-height: 1.5;
 }
 
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ff-oswald);
+    margin: 0;
+}
+
+p {
+    font-family: var(--ff-montserrat);
+    margin: 0;
+    color: var(--clr-dark-gray);
+}
+
+.clr-pantone {
+    color: var(--clr-pantone);
+}
+
+.clr-white {
+    color: var(--clr-white);
+}
+/* ============  SECTION-1  ============ */
+.hero {
+    background: var(--clr-dark-gray);
+    min-height: 28.125rem;
+}
+
+.container {
+    width: min(86vw, 1200px);
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__txt-cta-container {
+    margin:  0 auto; 
+    padding: 3em 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__title {
+    font-size: clamp(3.5rem, 5vw, var(--fs-90px));
+}
+
+.hero__txt {
+    font-size: clamp(1.2rem, 2vw, var(--fs-24px));
+}
+
+.hero__cta {
+    cursor: pointer;
+    font-size: var(--fs-24px);
+    font-family: var(--ff-oswald);
+    /* width: 80%; */
+
+    background: var(--clr-pantone);
+    border: none;
+    border-radius: 3em;
+    padding: .25em 1.25em;
+    margin-top: 2em;
+
+    align-self: flex-start;
+}
