@@ -6,7 +6,7 @@
     /* ====== Colors ======= */
     --clr-extra-dark: #2E323F;
     --clr-dark-gray: #3B4050;
-    --clr-light-gray: #f1f1f1;
+    --clr-light-gray: hsla(225, 7%, 90%);
     /* Texts colors */
     --clr-gray: #6F737F;
     --clr-pantone: #A59678;
@@ -44,6 +44,7 @@ p {
     color: var(--clr-dark-gray);
 }
 
+/* ======= Applies to Multiple Sections ======= */
 .clr-pantone {
     color: var(--clr-pantone);
 }
@@ -51,14 +52,15 @@ p {
 .clr-white {
     color: var(--clr-white);
 }
-/* ============  SECTION-1  ============ */
+
+/* ============ SECTION-1 ============ */
 .hero {
     background: var(--clr-dark-gray);
     min-height: 28.125rem;
 }
 
 .container {
-    width: min(86vw, 1200px);
+    width: min(86%, 1200px);
     margin: 0 auto;
 
     display: flex;
@@ -95,4 +97,30 @@ p {
     margin-top: 2em;
 
     align-self: flex-start;
+}
+/* ======= SECTION-2 ======= */
+.features {
+    background: var(--clr-light-gray);
+}
+
+.features .container {
+    text-align: center;
+}
+
+.col--first {
+    margin-top: 3rem;
+}
+
+.col {
+    padding: 1em;
+}
+
+.features__heading {
+    font-size: var(--fs-30px);
+    margin-bottom: .5em;
+}
+
+.features__description {
+    font-size: var(--fs-18px);
+    margin-bottom: 1.75rem;
 }
