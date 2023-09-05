@@ -30,6 +30,7 @@ body {
 }
 
 img {
+    display: block;
     max-width: 100%;
 }
 
@@ -94,6 +95,7 @@ p {
     border: none;
     border-radius: 3em;
     padding: .25em 1.25em;
+    margin: 0 auto;
     margin-top: 2em;
 
     align-self: flex-start;
@@ -124,3 +126,53 @@ p {
     font-size: var(--fs-18px);
     margin-bottom: 1.75rem;
 }
+/*========= SECTION-3 ========= */
+
+.tips .container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+.tips__heading {
+    font-size: var(--fs-36px);
+}
+
+.tips__description {
+    font-size: var(--fs-21px);
+    margin-top: 1.75em;
+}
+
+.tips__img {
+    margin-top: 3rem;
+}
+
+.tips__secondary {
+    color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tip-box {
+    background: var(--clr-dark-gray);
+    text-align: center;
+    padding: 1em;
+}
+
+.tip__title, .tip__txt {
+    padding-bottom: .5em;
+}
+
+.tip__title {
+    font-size: var(--fs-30px);
+}
+
+.tip__txt {
+    font-size: var(--fs-18px);
+    color: inherit;
+}
+
+
