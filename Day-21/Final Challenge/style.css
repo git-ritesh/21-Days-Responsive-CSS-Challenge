@@ -180,7 +180,7 @@ p {
 .footer {
     background: var(--clr-dark-gray);
     text-align: center;
-    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .footer__title {
@@ -198,10 +198,6 @@ p {
 .footer__content p {
     color: var(--clr-gray);
     font-size: var(--fs-16px);
-}
-
-.footer__title {
-    
 }
 
 .footer__content p {
