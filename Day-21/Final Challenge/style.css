@@ -150,6 +150,7 @@ header {
 .hero {
     background: var(--clr-dark-gray);
     min-height: 28.125rem;
+    padding-top: 4rem;
 }
 
 .container {
