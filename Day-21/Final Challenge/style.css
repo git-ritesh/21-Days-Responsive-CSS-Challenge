@@ -130,16 +130,14 @@ header {
     font-size: var(--fs-18px);
     background: var(--clr-extra-dark);
     width: 100%;
-
-    display: none;
-
+    position: fixed;
+    left: 100%;
+    padding: 1rem;
+    transition: 0.3s;
 }
 
 .nav.is-active {
-    padding-top: 4em;
     left: 0;
-    top: 0;
-    display: initial;
 }
 
 .nav__list {
