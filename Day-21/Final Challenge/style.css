@@ -250,7 +250,7 @@ header {
     color: var(--clr-white);
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .tip-box {
@@ -303,4 +303,11 @@ header {
 
 .footer__content h3 {
     padding-top: 2em;
+}
+
+/*  ======= FOR TABLETS ============ */
+@media (min-width: 700px) and (max-width: 1024px) {
+    .tips__secondary {
+        flex-direction: row;
+    }
 }
