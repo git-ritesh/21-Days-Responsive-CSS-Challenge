@@ -114,6 +114,16 @@ header {
   transition: 0.3s;
 }
 
+.hamburger.is-active::after {
+  transform: translate(0, -11px) rotate(-45deg);
+}
+.hamburger.is-active::before {
+  transform: translate(0, 11px) rotate(45deg);
+}
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
 .nav {
     text-align: center;
     font-family: var(--ff-oswald);
