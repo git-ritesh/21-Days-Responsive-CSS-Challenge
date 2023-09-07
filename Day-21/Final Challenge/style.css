@@ -75,13 +75,13 @@ header {
     padding: .5rem 0;
     position: fixed;
     width: 100%;
+    box-shadow: 0 3px 12px rgba(49, 49, 49, 0.527);
 }
 
 #container__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo-wrapper {
