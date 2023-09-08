@@ -223,8 +223,8 @@ header {
     font-size: var(--fs-18px);
     margin-bottom: 1em;
 }
-/*========= SECTION-3 ========= */
 
+/*========= SECTION-3 ========= */
 .tips .container {
     display: flex;
     flex-direction: column;
@@ -309,5 +309,95 @@ header {
 @media (min-width: 700px) and (max-width: 1024px) {
     .tips__secondary {
         flex-direction: row;
+    }
+}
+/* ========= FOR LAPTOPS & BIGGER SCREENS ===== */
+@media (min-width: 1025px) {
+    /* ======NAVIGATION BAR / HEADER */
+    header {
+        padding: 1rem;
+    }
+    .desktop-nav-wrapper {
+        padding: 0;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        position: initial;
+        display: flex;
+        padding: 0;
+        gap: 10%;
+    }
+
+    .nav__primary,
+    .nav__secondary {
+        width: 45%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__primary {
+        justify-content: space-between;
+    }
+
+    .nav__secondary {
+        gap: 10%;
+        justify-content: end;
+    }
+
+    .nav__list--extra-margin {
+        margin: 0;
+    }
+
+    /* ========== GROUP PROPERTIES ==== */
+    .hero .container,
+    .tips .container {
+        gap: 8rem;
+    }
+
+    /* ============HERO SECTION===== */
+    .hero {
+        padding: 6rem;
+        padding-top: calc(6rem + 72px);
+    }
+    .container {
+        display: flex;
+    }
+
+    .hero .container {
+        min-height: 20rem;
+    }
+    
+    .hero__txt-cta-container {
+        align-self: flex-end;
+        padding-bottom: 1em;
+    }
+
+    .hero__cta {
+        margin-top: 1em;
+    }
+    /* ========FEATURE SECTION========= */
+    .features {
+        padding: 6rem 0; 
+    }
+
+
+    /* ======== TIPS SECTION =========== */
+    .tips .container {
+        padding: 8rem 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .footer__container {
+        display: block;
+        padding: 2rem 0;
     }
 }
