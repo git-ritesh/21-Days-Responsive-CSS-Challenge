@@ -56,7 +56,8 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus,
+.hero__cta:hover {
     opacity: .7;
 }
 
@@ -154,16 +155,17 @@ header {
     border-radius: 2em;
 }
 
+/* ======== Properties which applies to Multiple Sections ======= */
+.container, .desktop-nav-wrapper {
+    width: min(86%, 1200px);
+    margin: 0 auto;
+}
+
 /* ============ SECTION-1 ============ */
 .hero {
     background: var(--clr-dark-gray);
     min-height: 28.125rem;
     padding-top: 4rem;
-}
-
-.container, .desktop-nav-wrapper {
-    width: min(86%, 1200px);
-    margin: 0 auto;
 }
 
 .hero__txt-cta-container {
@@ -355,12 +357,7 @@ header {
         margin: 0;
     }
 
-    /* ========== GROUP PROPERTIES ==== */
-    .hero .container,
-    .tips .container {
-        gap: 8rem;
-    }
-
+    
     /* ============HERO SECTION===== */
     .hero {
         padding: 6rem 0;
@@ -368,10 +365,6 @@ header {
     }
     .container {
         display: flex;
-    }
-
-    .hero .container {
-        min-height: 20rem;
     }
     
     .hero__txt-cta-container {
@@ -386,8 +379,8 @@ header {
     .features {
         padding: 6rem 0; 
     }
-
-
+    
+    
     /* ======== TIPS SECTION =========== */
     .tips .container {
         padding: 8rem 0;
@@ -398,5 +391,9 @@ header {
     .footer__container {
         display: block;
         padding: 2rem 0;
+    }
+
+    .tips .container {
+        gap: 8rem;
     }
 }
