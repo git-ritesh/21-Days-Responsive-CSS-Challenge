@@ -161,7 +161,7 @@ header {
     padding-top: 4rem;
 }
 
-.container {
+.container, .desktop-nav-wrapper {
     width: min(86%, 1200px);
     margin: 0 auto;
 }
@@ -293,7 +293,7 @@ header {
     font-size: var(--fs-21px);
 }
 .footer__content p {
-    color: var(--clr-gray);
+    color: white;
     font-size: var(--fs-16px);
 }
 
@@ -316,11 +316,10 @@ header {
     /* ======NAVIGATION BAR / HEADER */
     header {
         padding: 1rem;
+        
     }
     .desktop-nav-wrapper {
         padding: 0;
-        max-width: 1200px;
-        margin: 0 auto;
         display: flex;
     }
 
@@ -364,7 +363,7 @@ header {
 
     /* ============HERO SECTION===== */
     .hero {
-        padding: 6rem;
+        padding: 6rem 0;
         padding-top: calc(6rem + 72px);
     }
     .container {
