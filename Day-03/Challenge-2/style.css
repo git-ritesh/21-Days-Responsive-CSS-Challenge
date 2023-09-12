@@ -23,18 +23,19 @@ body {
   font-family: sans-serif;
 }
 
-.container {
-  width: 100%;
-  /* max-width: 750px; */
-  margin: 0 auto;
+.intro {
   background: #23424a;
   color: white;
   padding: 50px 0;
 }
 
-.intro-content, .more-content {
-  width: 50%;
-  max-width: 600px;
+.container {
+  width: 80%;
+  max-width: 750px;
   margin: 0 auto;
+}
+
+.intro-content{
+  width: 50%;
 }
 
