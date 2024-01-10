@@ -17,7 +17,7 @@ See below image for e.g.
 
 - One second thing is that with the `nowrap` they got as small as they could literally shrinking down to the smallest possible size it could to fit that text. and then when we switch over to `wrap` it's keeping the text on one line of code or one line of visual line here so we'll flex label and that's as small as it's gonna get it runs out of room and it will `wrap` that down below.
 
-- `flex-flow` is just a shorthand for `flex-direction` & `flex wrap` so we could write `flex-row: row nowrap;` 
+- `flex-flow` is just a shorthand for `flex-direction` & `flex wrap` so we could write `flex-flow: row nowrap;` 
 
 ## `justify-content` :
 
